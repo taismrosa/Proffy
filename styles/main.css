@@ -18,21 +18,24 @@
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
-    font-size: 60%; /* controle das medidas rem */
+    font-size: 60%;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100vh;
 }
 
 body {
-    background-color: var(--color-background);
+    background: var(--color-background);
     display: flex;
     align-items: center;
     justify-content: center;
